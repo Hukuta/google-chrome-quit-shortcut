@@ -15,3 +15,4 @@ Bind *quit-chrome.sh* bash script to any hotkey. I prefer "Ctrl+Win+Q", which do
 
 `/bin/bash YOUR_PATH_TO_SCRIPT/quit-chrome.sh > /dev/null`
 
+Keep in mind that the script will work if the browser window is active. Thereby, You can add other programs to the script to provide the desired logic for each one.
