@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Terminate active Google Chrome browser (with -TERM signal), 
-# including all windows and sessions, for current user
-# Bind this script on Ctrl+Win+Q
+# immediately terminate active Google Chrome browser (with -TERM signal), 
+# including all windows and sessions, only for current user
 
 FOCUSED_WIN_TITLE=$(xdotool getwindowfocus getwindowname)
 CHROME_REGEX=" - Google Chrome$"
